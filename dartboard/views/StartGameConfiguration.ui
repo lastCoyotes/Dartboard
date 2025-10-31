@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartGameConfiguration</class>
+ <widget class="QMainWindow" name="StartGameConfiguration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Start Game Configuration</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0" colspan="7">
+     <widget class="QComboBox" name="player_two_combo_box">
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="3">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Official Names</string>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="5" colspan="2">
+     <widget class="QRadioButton" name="lifetime_averages_radio_button">
+      <property name="text">
+       <string>Lifetime Averages</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="7">
+     <widget class="QLineEdit" name="official_names_line_edit"/>
+    </item>
+    <item row="17" column="3" colspan="2">
+     <widget class="QRadioButton" name="triples_doubles_radio_button">
+      <property name="text">
+       <string>Triples Doubles</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0" colspan="7">
+     <widget class="QDateEdit" name="date_edit"/>
+    </item>
+    <item row="18" column="5" colspan="2">
+     <widget class="QRadioButton" name="lifetime_scores_radio_button">
+      <property name="text">
+       <string>Lifetime Scores</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0" colspan="7" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Starting Stats Display</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="4">
+     <widget class="QRadioButton" name="leg_value_501_radio_button">
+      <property name="text">
+       <string>501</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1" colspan="5">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Scoring Leg Value</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="0" colspan="3">
+     <widget class="QRadioButton" name="match_highest_out_radio_button">
+      <property name="text">
+       <string>Match Highest Out</string>
+      </property>
+     </widget>
+    </item>
+    <item row="21" column="4">
+     <widget class="QPushButton" name="start_game_button">
+      <property name="text">
+       <string>Start Game</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Player 2 Name</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="20" column="4">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="11" column="6">
+     <widget class="QSpinBox" name="number_of_sets_spin_box"/>
+    </item>
+    <item row="18" column="0" colspan="3">
+     <widget class="QRadioButton" name="match_score_stats_radio_button">
+      <property name="text">
+       <string>Match Score Stats</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QSpinBox" name="number_of_legs_spin_box"/>
+    </item>
+    <item row="19" column="3" colspan="2">
+     <widget class="QRadioButton" name="player_last_win_radio_button">
+      <property name="text">
+       <string>Player Last Win</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="7">
+     <widget class="QComboBox" name="player_one_combo_box">
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="3" colspan="2">
+     <widget class="QRadioButton" name="player_rank_radio_button">
+      <property name="text">
+       <string>Player Rank</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="5">
+     <widget class="QRadioButton" name="leg_value_301_radio_button">
+      <property name="text">
+       <string>301</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Date</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Player 1 Name</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="0" colspan="3">
+     <widget class="QRadioButton" name="match_averages_radio_button">
+      <property name="text">
+       <string>Match Averages</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="6">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Number of Matches</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Location</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="7">
+     <widget class="QLineEdit" name="location_line_edit"/>
+    </item>
+    <item row="13" column="2">
+     <widget class="QRadioButton" name="leg_value_801_radio_button">
+      <property name="text">
+       <string>801</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Number of Legs</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>location_line_edit</tabstop>
+  <tabstop>date_edit</tabstop>
+  <tabstop>number_of_legs_spin_box</tabstop>
+  <tabstop>number_of_sets_spin_box</tabstop>
+  <tabstop>leg_value_801_radio_button</tabstop>
+  <tabstop>leg_value_501_radio_button</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
